@@ -146,7 +146,9 @@ section#section2 .content-left span {
 }
 
 .fa-arrow-right-long {
+  font-size: 19px;
   margin-left: 8px;
+  color: #5468e7;
 }
 
 /* Section3 Start */
@@ -271,16 +273,17 @@ section#section6 .title {
 }
 
 section#section6 .slider {
-  gap: 30px;
+  margin-left: 100px;
 }
 
 section#section6 .slider .card {
-  width: 367px;
+  width: 367px !important;
   height: 100%;
   padding: 44px 33px;
   background-color: #ffffff;
   border: none;
   box-shadow: 0px 16px 24px 0px rgba(118, 118, 178, 0.24);
+  margin-right: 30px;
 }
 
 section#section6 .slider .card img.rating {
@@ -312,4 +315,19 @@ section#section6 .slider .card .profil-card .profil-title h1 {
 section#section6 .slider .card .profil-card .profil-title p {
   font-size: 14px;
   color: #7676b2;
+}
+
+.custom-prev,
+.custom-next {
+  cursor: pointer;
+  position: absolute;
+  bottom: -30px;
+}
+
+.custom-prev {
+  left: 69%;
+}
+
+.custom-next {
+  right: 25%;
 }
