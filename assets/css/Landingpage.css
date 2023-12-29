@@ -99,7 +99,7 @@ section .fa-arrow-right {
   font-size: 24px;
 }
 
-::placeholder {
+header section ::placeholder {
   color: #7676b2;
 }
 
@@ -330,4 +330,95 @@ section#section6 .slider .card .profil-card .profil-title p {
 
 .custom-next {
   right: 25%;
+}
+
+/* Section6 End */
+
+/* Footer */
+
+footer {
+  height: 500px;
+  background-color: #232340;
+}
+
+footer .footer-content {
+  padding-top: 100px;
+}
+
+footer .logo-title {
+  margin-right: 120px;
+}
+
+footer .logo-title h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+footer .logo-title h1 span {
+  color: #5468e7;
+}
+
+footer .logo-title p {
+  width: 168px;
+  font-size: 14px;
+  color: #f5f5f5;
+}
+
+footer .footer-title {
+  margin-right: 100px;
+}
+
+footer .footer-title h1 {
+  font-size: 24px;
+  color: #5468e7;
+}
+
+footer .footer-title ul {
+  padding-left: 0;
+}
+
+footer .footer-title ul li {
+  list-style: none;
+  padding-bottom: 12px;
+}
+
+footer .footer-title input {
+  width: 268px;
+  height: 46px;
+  padding: 11px 16px;
+  background-color: rgba(245, 245, 245, 0.24);
+  border: none;
+}
+
+footer .footer-title .input-container {
+  position: relative;
+  display: inline-block;
+}
+
+footer .footer-title .input-container span {
+  color: #f5f5f5;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-40%);
+  cursor: pointer;
+}
+
+footer .footer-title ::placeholder {
+  color: #f5f5f5;
+}
+
+footer .footer-title ul li a,
+p.p,
+.footer-end p {
+  font-size: 14px;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+footer .footer-end p {
+  margin-top: 120px;
 }
