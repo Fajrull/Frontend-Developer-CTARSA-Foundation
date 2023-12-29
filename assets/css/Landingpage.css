@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5 !important;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+header nav .navbar-brand {
+  font-size: 50px;
+  font-weight: 600;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+header nav .navbar-brand:hover {
+  font-size: 50px;
+  font-weight: 600;
+  color: #f5f5f5;
+}
+
+header nav .navbar-brand span {
+  color: #5468e7;
+}
+
+header nav button.navbar-toggler {
+  background-color: transparent;
+  border: none;
+}
+
+.fa-bars:before,
+.fa-navicon:before {
+  color: #f5f5f5 !important;
+  font-size: 32px;
+}
+
+header nav ul li a {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: #f5f5f5 !important;
+  text-decoration: underline !important;
+}
+
+header nav ul button {
+  width: 184px;
+  height: 47px;
+  font-size: 18px;
+  color: #f5f5f5;
+  background-color: rgba(84, 104, 231, 0.5);
+  border: none;
+  border-radius: 4px;
+}
+
+header section {
+  position: relative;
+  top: 50%;
+  transform: translateY(-80%);
+  color: #f5f5f5;
+}
+
+header section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  width: 563px;
+}
+
+header section p {
+  font-size: 18px;
+  width: 397px;
+}
+
+section .input-container {
+  position: relative;
+  display: inline-block;
+}
+
+section .input-container span {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-40%);
+  cursor: pointer;
+}
+
+section .fa-arrow-right {
+  color: #7676b2;
+  font-size: 24px;
+}
+
+::placeholder {
+  color: #7676b2;
+}
+
+section input {
+  width: 298px;
+  height: 47px;
+  border-radius: 4px;
+  padding: 11px 16px;
+  border: none;
+}
+
+section button {
+  width: 233px;
+  height: 47px;
+  color: #f5f5f5;
+  background-color: #5468e7;
+  border: none;
+  border-radius: 4px;
+  margin-left: 12px;
+}
+
+/* Section2 Start */
+
+section#section2 {
+  height: 100vh;
+  margin-left: 100px;
+}
+
+section#section2 .content-left h1 {
+  font-size: 50px;
+  font-weight: bold;
+  width: 460px;
+}
+
+section#section2 .content-left p {
+  font-size: 18px;
+  width: 460px;
+}
+
+section#section2 .content-left span {
+  text-decoration: underline;
+  color: #5468e7;
+  font-size: 16px;
+}
+
+.fa-arrow-right-long {
+  margin-left: 8px;
+}
+
+/* Section3 Start */
+
+section#section3 {
+  height: 100vh;
+}
+
+section#section3 .content-left {
+  position: relative;
+}
+
+section#section3 .content-left img.calender {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+section#section3 .content-right h1 {
+  font-size: 50px;
+  font-weight: bold;
+  width: 456px;
+}
+
+section#section3 .content-right p {
+  font-size: 18px;
+  width: 456px;
+}
+
+section#section3 .content-right span {
+  text-decoration: underline;
+  color: #5468e7;
+  font-size: 16px;
+}
+
+/* Section4 Start */
+
+section#section4 {
+  height: 100vh;
+}
+
+section#section4 .content-left h1 {
+  font-size: 50px;
+  font-weight: bold;
+  width: 456px;
+}
+
+section#section4 .content-left p {
+  font-size: 18px;
+  width: 456px;
+}
+
+section#section4 .content-left span {
+  text-decoration: underline;
+  color: #5468e7;
+  font-size: 16px;
+}
+
+section#section4 .content-right {
+  position: relative;
+}
+
+section#section4 .content-right img.card {
+  position: absolute;
+  right: 30px;
+  top: 260px;
+}
+
+section#section4 .content-right img.card2 {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+/* Section5 Start */
+
+section#section5 {
+  height: 100vh;
+}
+
+section#section5 .content-left {
+  position: relative;
+}
+
+section#section5 .content-left img.card {
+  position: absolute;
+  left: 30px;
+  top: 260px;
+}
+
+section#section5 .content-left img.card2 {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+section#section5 .content-right h1 {
+  font-size: 50px;
+  font-weight: bold;
+  width: 456px;
+}
+
+section#section5 .content-right p {
+  font-size: 18px;
+  width: 456px;
+}
+
+section#section5 .content-right span {
+  text-decoration: underline;
+  color: #5468e7;
+  font-size: 16px;
+}
+
+/* Section6 Start */
+
+section#section6 {
+  height: 100vh;
+}
+
+section#section6 .title {
+  margin-bottom: 120px;
+}
+
+section#section6 .slider {
+  gap: 30px;
+}
+
+section#section6 .slider .card {
+  width: 367px;
+  height: 100%;
+  padding: 44px 33px;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0px 16px 24px 0px rgba(118, 118, 178, 0.24);
+}
+
+section#section6 .slider .card img.rating {
+  width: 162px;
+  padding-bottom: 24px;
+}
+
+section#section6 .slider .card p {
+  width: 301px;
+  font-size: 18px;
+  margin: 0;
+}
+
+section#section6 .slider .card .profil-card {
+  display: flex;
+  gap: 14px;
+  padding-top: 40px;
+}
+
+section#section6 .slider .card .profil-card img {
+  width: 56px;
+  height: 56px;
+}
+
+section#section6 .slider .card .profil-card .profil-title h1 {
+  font-size: 24px;
+}
+
+section#section6 .slider .card .profil-card .profil-title p {
+  font-size: 14px;
+  color: #7676b2;
+}
