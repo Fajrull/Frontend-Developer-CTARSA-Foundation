@@ -505,7 +505,7 @@
 
   footer {
     width: 100%;
-    height: 1140px;
+    height: auto;
     padding: 16px;
     overflow: hidden;
   }
@@ -516,6 +516,7 @@
 
   footer .footer-center {
     flex-wrap: wrap;
+    gap: 16px;
   }
 
   footer .footer-title {
