@@ -1,0 +1,262 @@
+/* Responsvie */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  header {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  header section h1 {
+    width: 510px;
+  }
+
+  header section p {
+    width: 510px;
+  }
+
+  section input {
+    width: 298px;
+    height: 47px;
+  }
+
+  header section ::placeholder {
+    color: #7676b2;
+    font-size: 14px;
+  }
+
+  section .fa-arrow-right {
+    font-size: 16px;
+  }
+
+  section button {
+    width: 200px;
+    height: 47px;
+  }
+
+  /* Section 2 */
+  section#section2 {
+    height: auto;
+    flex-direction: column;
+    align-items: start !important;
+    margin-left: 32px;
+    overflow: hidden;
+  }
+
+  section#section2 .content-left {
+    order: 2;
+    margin-top: 48px;
+  }
+
+  section#section2 .content-right img {
+    width: 568px;
+    height: auto;
+    order: 1;
+  }
+
+  /* Section 3 */
+
+  section#section3 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 62px;
+    padding-top: 32px;
+  }
+
+  section#section3 .container {
+    gap: 24px;
+    padding: 0;
+  }
+
+  section#section3 .content-left img {
+    width: 280px;
+    height: 360px;
+  }
+
+  section#section3 .content-left img.calender {
+    width: 160px;
+    height: 68px;
+    top: 50px;
+    right: 20px;
+  }
+
+  section#section3 .content-right h1 {
+    font-size: 34px;
+    width: 240px;
+  }
+
+  section#section3 .content-right p {
+    width: 240px;
+    font-size: 16px;
+  }
+
+  /* Section 4 */
+
+  section#section4 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 62px;
+  }
+
+  section#section4 .container {
+    gap: 24px;
+    padding: 0;
+  }
+
+  section#section4 .content-left {
+    padding-left: 24px;
+  }
+
+  section#section4 .content-left h1 {
+    width: 240px;
+    font-size: 34px;
+  }
+
+  section#section4 .content-left p {
+    width: 240px;
+    font-size: 16px;
+  }
+
+  section#section4 .content-right img {
+    width: 280px;
+    height: 360px;
+  }
+
+  section#section4 .content-right img.card {
+    width: 120px;
+    height: 52px;
+    right: 10px;
+    top: 60px;
+  }
+
+  section#section4 .content-right img.card2 {
+    width: 120px;
+    height: 115px;
+    right: 10px;
+    bottom: 130px;
+  }
+
+  /* Section 5 */
+
+  section#section5 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 62px;
+  }
+
+  section#section5 .container {
+    gap: 24px;
+    padding: 0;
+  }
+
+  section#section5 .content-left img {
+    width: 280px;
+  }
+
+  section#section5 .content-left img.card {
+    width: 128px;
+    left: 20px;
+    top: 70px;
+  }
+
+  section#section5 .content-left img.card2 {
+    width: 128px;
+    left: 20px;
+    bottom: 20px;
+  }
+
+  section#section5 .content-right {
+    padding-right: 12px;
+  }
+
+  section#section5 .content-right h1 {
+    width: 240px;
+    font-size: 34px;
+  }
+
+  section#section5 .content-right p {
+    width: 240px;
+    font-size: 16px;
+  }
+
+  /* Section 6 */
+
+  section#section6 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 124px;
+  }
+
+  section#section6 .title {
+    margin-bottom: 80px;
+  }
+
+  section#section6 h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  section#section6 .slider {
+    margin: 0;
+    padding-left: 24px;
+    height: 550px;
+  }
+
+  div.slick-track {
+    display: flex;
+  }
+
+  section#section6 .slider .card {
+    width: 260px !important;
+  }
+
+  section#section6 .slider .card p {
+    width: 194px;
+    font-size: 16px;
+  }
+
+  section#section6 .slider .card .profil-card .profil-title h1 {
+    width: 124px;
+  }
+
+  section#section6 .slider .card .profil-card .profil-title p {
+    width: 124px;
+  }
+
+  .custom-prev,
+  .custom-next {
+    cursor: pointer;
+    position: absolute;
+    bottom: -30px;
+  }
+
+  .custom-prev {
+    left: 25%;
+  }
+
+  .custom-next {
+    right: 60%;
+  }
+
+  /* footer */
+
+  footer {
+    width: 568px;
+    height: 764px;
+    padding: 16px;
+  }
+
+  footer .footer-content {
+    flex-wrap: wrap;
+  }
+
+  footer .footer-center {
+    flex-wrap: wrap;
+  }
+
+  footer .footer-title {
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+}

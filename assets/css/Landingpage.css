@@ -114,6 +114,7 @@ section input {
 section button {
   width: 233px;
   height: 47px;
+  font-size: 18px;
   color: #f5f5f5;
   background-color: #5468e7;
   border: none;
